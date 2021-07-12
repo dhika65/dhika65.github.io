@@ -1,0 +1,205 @@
+.active a{
+	background-color: aquamarine
+	border-radius:15px;
+	color:green;
+}
+
+body{
+	background: url('pemandangan jpeg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	font-family: 'open sans'
+}
+
+hr{
+	border: 0;
+	background: white
+	height:2px;
+}
+
+header img{
+	margin-top: 6px;
+	border-radius: 8px;
+}
+
+header{
+	text-align: center;
+	color: black;
+}
+
+header .judul{
+	font-size: 17pt
+}
+
+.wrap{
+	width: 950px;
+	margin: 25px auto;
+}
+
+nav.menu ul{
+	overflow: hidden;
+	color: white;
+	list-style: none;
+	float: left;
+	padding: 0px;
+	width:650px;
+	margin: :0 0 0;
+	background: rgb(2, 120, 150);
+	-webkit-box-shadow:1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow:1px 1px 1px 0px rgba(204,204,204,0.55);
+	border-radius: 15px;
+	display: flex;
+	color: red;
+}
+
+nav.menu ul li{
+	margin: 15px;
+	float: left;
+	flex: 1;
+}
+nav.menu ul a{
+	padding: 10px;
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	color:white;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	text-align: center;
+}
+.active a{
+	color: green;
+}
+nav.menu ul a.hover{
+	text-decoration: underline;
+	border-radius: 15px;
+	background: white,
+	margin:0.02px;
+	color:blue;
+
+}
+
+nav.menu ul a.active{
+	color: red;
+}
+
+.widget-pict{
+	border-radius: 8px;
+}
+
+.blog{
+	float:left;
+}
+
+.cunteudo{
+	width: 600px;
+	padding: 25px;
+	margin: 25px auto;
+	background: white;
+	transition: all 0.5s ease;
+	border: 1px solid white;
+	-webkit-box-shadow:1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow:1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	border-radius: 15px 25px;
+	background-color: white
+}
+
+.cuenteudo.hover{
+	border-bottom: 4px solid blue;
+	box-shadow: 5px 5px 5px 0px rgba(148,137,137,0.55);
+}
+
+.cuenteudo img{
+	min-width: 650px;
+	margin: 0 0 25px -25px;
+	max-width: 650 px;
+}
+.cuenteudo h1{
+	padding: 0;
+	margin: 0 0 15px;
+	font-weight: normal;
+	color : black;
+	font-family: georgia;
+}
+.conteudo .continue-lendo{
+	color:black;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700;
+}
+.post-info{
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
+@media screen and(max-width: 960px){
+	.header{
+		position: inherit;	
+	}
+	.wrap{
+		width: 90%;
+		margin: 25px auto;
+	}
+	nav.menu ul{
+		width: 100%
+	}
+	nav.menu ul{
+		float: inherit;
+	}
+	nav.menu ul li{
+		float: inherit;
+		margin: 0;
+	}
+	nav.menu ul a{
+		padding: 15px;
+		font-size: 16px;
+		border-top: 1px solid blue;
+		border-bottom: 1px solid blue;
+	}
+	.blog{
+		width: 90%
+	}
+	.conteudo{
+		float: inherit;
+		margin: 0 auto 25px;
+		width: 100%
+		border:1px solid white;
+		padding: 5%;
+		background: #fff;
+	}
+	.conteudo .continue-lendo.hover{
+		margin-left: 0;
+	}
+	.conteudo img{
+		max-width: 110%;
+		margin: 0 0 25px -5%;
+		min-width: 110%;
+	}
+}
+
+@media screen and(max-width: 460px){
+	nav.menu ul a{
+		padding: 15px;
+		font-size: 14px;
+	}
+	.post-info{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
